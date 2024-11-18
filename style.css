@@ -1,6 +1,6 @@
 .parallax {
   /* The image used */
-  background-image: url("Glacier_Bay_National_Park-01-mwn1q4.jpg");
+  background-image: url("img/1680763e0d91aafb3ddec53d52083f29.gif");
 
   /* Set a specific height */
   min-height: 500px;
@@ -10,27 +10,50 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
-
+.textP {
+  height:1000px;
+  background-color: rgb(140, 193, 211);
+  }
 /* Container element */
-
-
-body, html {
-  height: 100%;
-  background-image: url("img/wtqqnkYDYi2ifsWZVW2MT4.jpg");
-}
-
-.parallax {
-  /* The image used */
-  background-image: url("Glacier_Bay_National_Park-01-mwn1q4.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+.TextCP {
+  text-align: center;
+  font-size: 50px;
+  background-color: rgb(140, 193, 211);
+  margin-left: 500px;
+  margin-right: 500px;
+  position: absolute;
+  top: 50%;
+  font-family: 'Brush Script MT', cursive;
+  }
+  .parallaxny{
+    /* The image used */
+    background-image: url("img/1680763e0d91aafb3ddec53d52083f29.gif");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .textPny {
+    height:1000px;
+    background-color: rgb(140, 193, 211);
+    }
+  /* Container element */
+  .TextCPny {
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(140, 193, 211);
+    margin-left: 500px;
+    margin-right: 500px;
+    position: absolute;
+    top: 50%;
+    font-family: 'Brush Script MT', cursive;
+    }
